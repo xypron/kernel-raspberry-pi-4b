@@ -1,4 +1,4 @@
-TAG=5.5.rc-7
+TAG=5.5-rc7
 TAGPREFIX=v
 REVISION=001
 
