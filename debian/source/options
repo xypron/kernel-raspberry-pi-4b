@@ -6,6 +6,6 @@ tar-ignore = ".git*"
 tar-ignore = "job.log"
 # ignore dtc source
 tar-ignore = "dtc"
-tar-ignore = "debian/macchiatobin-dev-kernel-image"
-tar-ignore = "debian/macchiatobin-kernel-image"
+tar-ignore = "debian/raspberry-pi-4b-dev-kernel-image"
+tar-ignore = "debian/raspberry-pi-4b-kernel-image"
 tar-ignore = "rtc.dtbo"

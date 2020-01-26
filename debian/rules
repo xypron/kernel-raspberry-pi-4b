@@ -16,20 +16,20 @@ override_dh_auto_build:
 	VERSION=$$(linux/version) && \
 	sed s/@version@/$$VERSION/g \
 	debian/templates/image.preinst.in \
-	> debian/macchiatobin-dev-kernel-image.preinst
+	> debian/raspberry-pi-4b-kernel-image.preinst
 	VERSION=$$(linux/version) && \
 	sed s/@version@/$$VERSION/g \
 	debian/templates/image.postinst.in \
-	> debian/macchiatobin-dev-kernel-image.postinst
+	> debian/raspberry-pi-4b-kernel-image.postinst
 	VERSION=$$(linux/version) && \
 	sed s/@version@/$$VERSION/g \
 	debian/templates/image.prerm.in \
-	> debian/macchiatobin-dev-kernel-image.prerm
+	> debian/raspberry-pi-4b-kernel-image.prerm
 	VERSION=$$(linux/version) && \
 	sed s/@version@/$$VERSION/g \
 	debian/templates/image.postrm.in \
-	> debian/macchiatobin-dev-kernel-image.postrm
+	> debian/raspberry-pi-4b-kernel-image.postrm
 
 override_dh_auto_install:
 	make --no-print-directory install \
-	DESTDIR=debian/macchiatobin-kernel-image
+	DESTDIR=debian/raspberry-pi-4b-kernel-image
