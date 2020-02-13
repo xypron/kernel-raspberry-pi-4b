@@ -1,3 +1,9 @@
+raspberry-pi-4b-kernel (5.5.2) UNRELEASED; urgency=medium
+
+  * Kernel 5.5.2
+
+ -- Heinrich Schuchardt <xypron.glpk@gmx.de>  Thu, 13 Feb 2020 17:57:14 +0100
+
 raspberry-pi-4b-kernel (5.5.0) unstable; urgency=medium
 
   * Kernel 5.5-rc7
